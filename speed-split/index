@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>AA多人分账 - 技术支持</title>
+  <style>
+    :root {
+      --bg: #fcfaf7;
+      --card: #fffaf6;
+      --text: #3d2010;
+      --sub: #7d5e48;
+      --primary: #e8784a;
+      --border: #f0e0d2;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: -apple-system, BlinkMacSystemFont, "PingFang SC", "Helvetica Neue", Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.65;
+      padding: 24px;
+    }
+    .wrap {
+      max-width: 760px;
+      margin: 0 auto;
+    }
+    .card {
+      background: var(--card);
+      border: 1px solid var(--border);
+      border-radius: 16px;
+      padding: 20px;
+      box-shadow: 0 6px 20px rgba(180,120,80,0.06);
+    }
+    h1 {
+      margin: 0 0 8px;
+      font-size: 28px;
+      color: var(--text);
+    }
+    h2 {
+      margin: 20px 0 10px;
+      font-size: 18px;
+      color: var(--text);
+    }
+    h3 {
+      margin: 14px 0 6px;
+      font-size: 15px;
+      color: var(--text);
+    }
+    p, li { color: var(--sub); margin: 6px 0; }
+    ul { padding-left: 18px; margin: 8px 0; }
+    .muted { font-size: 13px; color: #a0836e; }
+    .mail {
+      display: inline-block;
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    .footer {
+      margin-top: 18px;
+      font-size: 12px;
+      color: #a0836e;
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>AA多人分账 - 技术支持</h1>
+      <p class="muted">最后更新时间：2026-05-09</p>
+      <p>感谢使用 AA多人分账。如遇问题，请先查看以下常见说明。</p>
+
+      <h2>常见问题</h2>
+
+      <h3>1. 如何新建活动？</h3>
+      <p>首页点击「新建活动」，填写名称、日期和参与人后保存。</p>
+
+      <h3>2. 如何添加费用？</h3>
+      <p>进入活动后点击「记一笔费用」，填写金额、付款人、分摊对象后保存。</p>
+
+      <h3>3. 支持编辑或删除吗？</h3>
+      <p>支持。活动和费用都可以在右侧菜单中编辑或删除。</p>
+
+      <h3>4. 为什么结算结果不对？</h3>
+      <p>请检查金额、付款人和分摊对象是否填写正确。结算结果会根据当前账单自动计算。</p>
+
+      <h3>5. 导出或分享失败怎么办？</h3>
+      <p>请检查相机/相册权限是否开启，并重试。</p>
+
+      <h2>联系我们</h2>
+      <p>如仍无法解决，请发送邮件到：</p>
+      <p><a class="mail" href="mailto:skyxingjia@outlook.com">skyxingjia@outlook.com</a></p>
+      <ul>
+        <li>设备型号</li>
+        <li>iOS 版本</li>
+        <li>问题截图（如有）</li>
+      </ul>
+
+      <h2>版本信息</h2>
+      <p>版本：1.0<br/>应用：AA多人分账</p>
+
+      <p class="footer">© 2026 XingJia Liu. All rights reserved.</p>
+    </section>
+  </main>
+</body>
+</html>
